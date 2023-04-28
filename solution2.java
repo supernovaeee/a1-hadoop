@@ -60,9 +60,9 @@ public class solution2 {
         if(count < min){
             min = count;
         }
-      String result = String.format("%d\t%d\t%d", total, max, min);
-      context.write(key, new Text(result));
     }
+    String result = String.format("%d\t%d\t%d", total, max, min);
+    context.write(key, new Text(result));
   }
 }
 }
