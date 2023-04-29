@@ -37,7 +37,7 @@ public class solution2 {
 
     public void map(Object key, Text value, Context context
                     ) throws IOException, InterruptedException {
-      String[] fields = value.toString().split(",");
+      String[] fields = value.toString().trim().split(",");   
       cityText.set(fields[1].trim());
       stateText.set(fields[0].trim());
       int count = Integer.parseInt(fields[2].trim());

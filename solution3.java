@@ -73,7 +73,8 @@ public class solution3 {
         sum += val.get();
       }
       result.set(sum);
-      context.write(key, result);
+      String keyPadded = String.format("%-10s", key.toString());
+      context.write(new Text(keyPadded), result);
     }
   }
 }

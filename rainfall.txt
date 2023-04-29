@@ -1,0 +1,20 @@
+Queensland          Gold Coast	    25
+Victoria            Melbourne	    125
+Victoria            Geelong	        90
+Victoria            Wodonga	        10
+NSW                 Lismore         900
+Queensland          Brisbane        50
+South Australia     Adelaide        300
+Western Australia   Perth           200
+Western Australia   Albany          200
+Western Australia   Broome          10
+Queensland          Charleville     15
+Queensland          Hervey Bay      30
+Queensland          Maryborough     45
+South Australia     Clare           350
+South Australia     Gawler          200
+South Australia     Renmark         150
+Tasmania            Kingston        200
+Tasmania            Queenstown      100
+Victoria            Bairnsdale      20
+Western Australia   Geraldton       75
