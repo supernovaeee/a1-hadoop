@@ -69,9 +69,11 @@ public class solution2 {
                 min = count;
             }
         }
+        String keyPadded = String.format("%-20s\t", key.toString());
         String result = String.format("%d\t%d\t%d", total, max, min);
 
-      context.write(key, new Text(result));
+
+      context.write(new Text(keyPadded), new Text(result));
     }
   }
 }
